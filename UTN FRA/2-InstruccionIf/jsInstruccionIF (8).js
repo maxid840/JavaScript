@@ -1,0 +1,27 @@
+function Mostrar()
+{
+//tomo la edad  
+var edad=document.getElementById('edad').value;
+var estadoCivil=document.getElementById('estadoCivil').value;
+
+if(edad<18&&estadoCivil!="Soltero")
+{
+	
+}
+else
+{
+	if(edad<18)
+	{
+		alert("Usted es "+estadoCivil);
+	}
+
+}
+
+{
+	if (edad>18&&estadoCivil=="Soltero")
+	{
+		alert("Es soltero y no es mejor");
+	}
+}
+}//FIN DE LA FUNCIÓN
+//Esta OKEY
